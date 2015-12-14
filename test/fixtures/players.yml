@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  DOB: 2015-12-14
+  position: MyString
+  college: MyString
+  debut: 2015-12-14
+
+two:
+  first_name: MyString
+  last_name: MyString
+  DOB: 2015-12-14
+  position: MyString
+  college: MyString
+  debut: 2015-12-14
