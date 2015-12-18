@@ -3,12 +3,18 @@
 <head>
   <title>GroundControl</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-
-<%= yield %>
-
-</body>
+  <body>
+    <ul class="nav nav-tabs">
+      <li role="presentation"><%= link_to "Home", root_path %></li>
+      <li role="presentation"><%= link_to "Players", players_path %></li>
+    </ul>
+    <div class="container">
+      <main>
+        <%= yield %>
+      </main>
+    </div>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  </body>
 </html>
