@@ -5,7 +5,9 @@
 #       DOB:        "1994-09-22",
 #       Position:   "SS",
 #       College:    "N/A",
-#       Throws:     "Right"
+#       Throws:     "Right",
+#       height:     "",
+#       team_id:    1
 #
 #   })
 
@@ -17,7 +19,9 @@ Player.create({
       Position:   "P",
       College:    "Arkansas",
       Debut:      "2012-06-17",
-      Throws:     "Left"
+      Throws:     "Left",
+      height:     "",
+      team_id:    1
 
   })
 
@@ -30,6 +34,8 @@ Player.create({
       College:    "Jesuit (FL) HS",
       Debut:      "2015-05-18",
       Throws:     "Right"
+      height:     "",
+      team_id:    1
 
   })
 
@@ -42,6 +48,7 @@ Player.create({
         College:    "N/A",
         Debut:      "2011-07-20",
         Throws:     "Right",
-        height:     "5'6""
+        height:     "5'6",
+        team_id:    1
 
     })
