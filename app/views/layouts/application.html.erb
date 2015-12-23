@@ -6,10 +6,15 @@
   <%= csrf_meta_tags %>
 </head>
   <body>
-    <ul class="nav nav-tabs">
-      <li role="presentation"><%= link_to "Home", root_path %></li>
-      <li role="presentation"><%= link_to "Players", players_path %></li>
-    </ul>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><%= link_to "Home", root_path %></li>
+          <li><%= link_to "Players", players_path %></li>
+        </ul>
+      </div>
+    </nav>
     <div class="container">
       <main>
         <%= yield %>
