@@ -9,4 +9,7 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sign_up) << :email << :password
   end
 
+  def after_sign_in_path_for(current_user)
+    "/dashboard"
+  end
 end

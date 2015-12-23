@@ -4,4 +4,8 @@ class HomeController < ActionController::Base
 
   end
 
+  def dashboard
+
+  end
+
 end
