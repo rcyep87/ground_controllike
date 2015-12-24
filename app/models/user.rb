@@ -4,12 +4,5 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :timeoutable
 
-   def timeout_in
-     if self.admin?
-       1.year
-     else
-       30.minutes
-     end
-   end
-   
+
 end
