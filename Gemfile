@@ -18,6 +18,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 gem 'figaro'
 gem 'kaminari'
+gem "coffee-rails"
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
